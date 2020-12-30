@@ -18,7 +18,7 @@ class _HomeState extends State<Home> {
             margin: EdgeInsets.only(left: 20),
             child: Icon(Icons.more_vert),
           ),
-          title: Text("LE Memes"),
+          title: Text("Caroline.app"),
           gradient: LinearGradient(colors: [Colors.blue, Colors.blueAccent]),
         ),
         body: CustomScrollView(
@@ -78,7 +78,7 @@ class _HomeState extends State<Home> {
                     ),
                   );
                 },
-                itemCount: 16)
+                itemCount: 60)
           ],
         ),
       ),
